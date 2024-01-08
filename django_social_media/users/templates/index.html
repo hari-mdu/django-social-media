@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Social Media Project</h1>
+
+    <h4>USERS</h4>
+    <ul>
+        {% for x in myusers %}
+        <li>{{x.first_name}} {{x.last_name}}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
